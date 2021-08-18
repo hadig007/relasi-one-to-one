@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 Route::get('/pengguna',[PenggunaController::class,'index']);
 Route::get('/article',[PenggunaController::class,'article']);
+Route::get('/anggota',[PenggunaController::class,'anggota']);
